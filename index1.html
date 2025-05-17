@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PatternsForms</title>
+</head>
+<body>
+    <h2>Patterns</h2>
+    <form action="./welcome.html" autocomplete="off">
+        <label for="user">Email</label>
+                <input type="text" id="user" value="" pattern="[a-z0-9]+@gmail.com" title="accept only valid mail" required><br>
+    <br>
+        <label for="user">Phone No:</label>
+                <input type="text" id="user" value="" pattern="^\+91\s\d{10}$" title="accept only valid phno" required><br>
+                <button>Submit</button>
+    </form>
+</body>
+</html>
